@@ -1,0 +1,46 @@
+html, body, #app {
+    height: 100%;
+}
+
+.view {
+    flex-grow: 1;
+}
+
+/* .el-input__wrapper {
+    --el-input-border-radius: 0;
+} */
+
+// functional class
+.df {
+    display: flex;
+}
+
+.dfa {
+    @extend .df;
+    align-items: center
+}
+
+.dfb {
+    @extend .df;
+    justify-content: space-between;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.p20 {
+    padding: 20px;
+}
+
+.pointer {
+    cursor: pointer;
+}
